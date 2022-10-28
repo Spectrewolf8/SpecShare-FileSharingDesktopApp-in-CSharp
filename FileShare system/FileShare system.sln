@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileShareSystem SenderSide", "FileShareSystem SenderSide.csproj", "{06A109E0-C950-436A-9ED3-01B25E1CC7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileShareSystem RecieverSide", "..\FileShare System ClientSide\FileShareSystem RecieverSide.csproj", "{5BDB4378-9E40-422C-A04D-F6628C1F02AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06A109E0-C950-436A-9ED3-01B25E1CC7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A109E0-C950-436A-9ED3-01B25E1CC7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A109E0-C950-436A-9ED3-01B25E1CC7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A109E0-C950-436A-9ED3-01B25E1CC7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BDB4378-9E40-422C-A04D-F6628C1F02AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDB4378-9E40-422C-A04D-F6628C1F02AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDB4378-9E40-422C-A04D-F6628C1F02AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDB4378-9E40-422C-A04D-F6628C1F02AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FE9D4DF-BE25-4766-82A9-87EDE12FF005}
+	EndGlobalSection
+EndGlobal
