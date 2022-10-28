@@ -16,7 +16,7 @@ namespace FileShare_system.SenderOrServerSide
 
         private static void establishConnection()
         {
-            IPEndPoint ep = new IPEndPoint(host, 1234); // Address
+            IPEndPoint ep = new IPEndPoint(IPAddress.Loopback, 1234); // Address
             TcpListener listener = new TcpListener(ep); // Instantiate the object
             listener.Start();// Start listening...
         }
